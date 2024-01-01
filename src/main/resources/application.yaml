@@ -1,0 +1,9 @@
+server:
+  port: 8091
+
+app:
+  config:
+    bucket-name: spring-boot_gcp_storage
+    max-upload-count: 3
+    max-request-size: 10485760 #10MB
+    max-in-mem-size: 10485760 #10MB
